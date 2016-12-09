@@ -10,32 +10,43 @@ body {
 }
 
 .main {
-  // width: 1800px;
-  @include outer-container;
+  margin: 3%;
 }
 
+.row {
+  @include span-columns(12);
+}
 
 .card {
-  width: 40%;
-  // background-color: silver;
   margin-bottom: 5%;
-  @include span-columns(2 of 6);
+  @include span-columns(4 of 12);
+  height: 80vh;
 }
 .card-header {
-  padding: 5%;
+  padding: 5% 5% 0 5%;
   text-align: center;
+  height: 20%;
 }
 
 .card-copy {
-  padding: 5%;
+  padding: 0 5% 5% 5%;
+  height: 50%;
 }
 
 
 .card-image img {
   width: 90%;
+  height: auto;
   display: block;
   margin: 0 auto;
   padding-top: 5%;
+}
+
+.card-image {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .transBack {
@@ -56,6 +67,5 @@ body {
   position: absolute;
   z-index: -1;
   background-size: cover;
-  // background-repeat: no-repeat;
   background-position: center;
 }
