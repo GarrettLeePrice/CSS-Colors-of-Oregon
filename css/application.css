@@ -52,6 +52,37 @@ p {
 #swatch3c {
   background-color: #6B7F1A; }
 
+#swatch4a {
+  background-color: #F4F3ED; }
+
+#swatch4b {
+  background-color: #7A8586; }
+
+#swatch4c {
+  background-color: #3D4447;
+  color: silver; }
+
+#swatch5a {
+  background-color: #8C9B28; }
+
+#swatch5b {
+  background-color: #0083C2; }
+
+#swatch5c {
+  background-color: #766F6C;
+  color: silver; }
+
+#swatch6a {
+  background-color: #4D6B84; }
+
+#swatch6b {
+  background-color: #253C51;
+  color: silver; }
+
+#swatch6c {
+  background-color: #172736;
+  color: silver; }
+
 .main {
   width: 90vw;
   max-width: 970px;
