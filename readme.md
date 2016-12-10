@@ -1,4 +1,4 @@
-# _Quiz Page_
+# _Oregon Colors_
 
 
 #### By _Garrett Price_
@@ -7,7 +7,7 @@
 
 ## Description
 
-_Main page for a faux quiz website, built to demonstrate my ability to use Sass for CSS pre-processing. This site's build also includes the Bourbon and Neat Sass libraries, as well as responsiveness to multiple screen sizes, atomic design principles and modular CSS._
+_Color swatches of Oregon website, built to demonstrate my ability to use Sass for CSS pre-processing. This site's build also includes the Bourbon and Neat Sass libraries, as well as responsiveness to multiple screen sizes, atomic design principles and modular CSS._
 
 ## Setup/Installation Requirements
 
