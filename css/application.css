@@ -13,20 +13,44 @@ html {
 body {
   background-color: silver; }
 
+p {
+  margin: 0; }
+
 [id*='swatch'] {
-  height: 40px;
-  width: 40px;
   background-color: red;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  text-align: center; }
 
 #swatch1a {
-  background-color: #F5B91A; }
+  background-color: #f8b614; }
+
+#swatch1b {
+  background-color: #395887; }
+
+#swatch1c {
+  background-color: #6A7D46; }
 
 #swatch2a {
-  background-color: #334676; }
+  background-color: #002649;
+  color: silver; }
+
+#swatch2b {
+  background-color: #1E406D;
+  color: silver; }
+
+#swatch2c {
+  background-color: #313E4B;
+  color: silver; }
 
 #swatch3a {
-  background-color: #737B3B; }
+  background-color: #D5DE59; }
+
+#swatch3b {
+  background-color: #47575D;
+  color: silver; }
+
+#swatch3c {
+  background-color: #6B7F1A; }
 
 .main {
   width: 90vw;
@@ -47,12 +71,12 @@ body {
     margin-right: 0; }
 
 .card-header {
-  padding: 5% 5% 0 5%;
+  padding: 0 5%;
   text-align: center;
   height: 15%; }
 
 .card-copy {
-  padding: 0 5% 5% 5%;
+  padding: 0 5%;
   height: 50%; }
 
 .card-image img {
