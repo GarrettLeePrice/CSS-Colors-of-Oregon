@@ -4,18 +4,23 @@
 @import "layout/index";
 @import "components/index";
 
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 
 body {
   background-color: silver;
+
 }
 
 [id*='swatch'] {
-  height: 15%;
-  width: 15%;
+  height: 40px;
+  width: 40px;
   background-color: red;
-  margin: 0 50% 2% 15%;
-  // margin-left: 15%;
-  // margin-right: 50%;
+  margin-bottom: 15px;
 }
 
 #swatch1a {
@@ -30,23 +35,20 @@ body {
   background-color: #737B3B;
 }
 
-#swatch4a {
-  background-color: #6DAABF;
-}
 
 .main {
-  margin: 3%;
+  width: 90vw;
+  max-width: 970px;
+  display: block;
+  margin: 6% auto;
 }
 
-.row {
-  @include span-columns(12);
-}
 
 .card {
   margin-bottom: 5%;
   @include span-columns(4 of 12);
-  height: 80vh;
-  // background-color: mintcream;
+  height: 450px;
+  width: 300px;
   border-radius: 10px;
 }
 
@@ -55,7 +57,7 @@ body {
 .card-header {
   padding: 5% 5% 0 5%;
   text-align: center;
-  height: 20%;
+  height: 15%;
 }
 
 .card-copy {
@@ -66,9 +68,6 @@ body {
 
 .card-image img {
   width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
   padding-top: 8%;
 }
 
