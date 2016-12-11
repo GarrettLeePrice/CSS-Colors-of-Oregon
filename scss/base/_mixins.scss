@@ -1,1 +1,8 @@
 
+@mixin swatch($color, $margin-bottom: null, $text-align: null, $color-text: null) {
+  background-color:$color;
+  margin-bottom: 15px;
+  text-align: center;
+  color: $color-text;
+}
+//

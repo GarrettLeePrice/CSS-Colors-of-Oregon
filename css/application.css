@@ -18,71 +18,102 @@ body {
 p {
   margin: 0; }
 
-[id*='swatch'] {
-  background-color: red;
+#swatch1a {
+  background-color: #f8b614;
   margin-bottom: 15px;
   text-align: center; }
 
-#swatch1a {
-  background-color: #f8b614; }
-
 #swatch1b {
-  background-color: #395887; }
+  background-color: #395887;
+  margin-bottom: 15px;
+  text-align: center; }
 
 #swatch1c {
-  background-color: #6A7D46; }
+  background-color: #6A7D46;
+  margin-bottom: 15px;
+  text-align: center; }
 
 #swatch2a {
   background-color: #002649;
+  margin-bottom: 15px;
+  text-align: center;
   color: silver; }
 
 #swatch2b {
   background-color: #1E406D;
+  margin-bottom: 15px;
+  text-align: center;
   color: silver; }
 
 #swatch2c {
   background-color: #313E4B;
+  margin-bottom: 15px;
+  text-align: center;
   color: silver; }
 
 #swatch3a {
-  background-color: #D5DE59; }
+  background-color: #D5DE59;
+  margin-bottom: 15px;
+  text-align: center; }
 
 #swatch3b {
   background-color: #47575D;
+  margin-bottom: 15px;
+  text-align: center;
   color: silver; }
 
 #swatch3c {
-  background-color: #6B7F1A; }
+  background-color: #6B7F1A;
+  margin-bottom: 15px;
+  text-align: center; }
 
 #swatch4a {
-  background-color: #F4F3ED; }
+  background-color: #F4F3ED;
+  margin-bottom: 15px;
+  text-align: center; }
 
 #swatch4b {
-  background-color: #7A8586; }
+  background-color: #7A8586;
+  margin-bottom: 15px;
+  text-align: center; }
 
 #swatch4c {
   background-color: #3D4447;
+  margin-bottom: 15px;
+  text-align: center;
   color: silver; }
 
 #swatch5a {
-  background-color: #8C9B28; }
+  background-color: #8C9B28;
+  margin-bottom: 15px;
+  text-align: center; }
 
 #swatch5b {
-  background-color: #0083C2; }
+  background-color: #0083C2;
+  margin-bottom: 15px;
+  text-align: center; }
 
 #swatch5c {
   background-color: #766F6C;
+  margin-bottom: 15px;
+  text-align: center;
   color: silver; }
 
 #swatch6a {
-  background-color: #4D6B84; }
+  background-color: #4D6B84;
+  margin-bottom: 15px;
+  text-align: center; }
 
 #swatch6b {
   background-color: #253C51;
+  margin-bottom: 15px;
+  text-align: center;
   color: silver; }
 
 #swatch6c {
   background-color: #172736;
+  margin-bottom: 15px;
+  text-align: center;
   color: silver; }
 
 .main {
