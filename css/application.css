@@ -141,4 +141,26 @@ p {
   background-position: center;
   border-radius: 10px; }
 
+@media screen and (max-width: 1076px) {
+  .main {
+    margin-left: 8.5298%;
+    display: block;
+    margin: 6% auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    .main::after {
+      clear: both;
+      content: "";
+      display: block; } }
+@media screen and (max-width: 787px) {
+  .main {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+    .main::after {
+      clear: both;
+      content: "";
+      display: block; } }
+
 /*# sourceMappingURL=application.css.map */

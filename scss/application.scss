@@ -183,3 +183,34 @@ p {
   background-position: center;
   border-radius: 10px;
 }
+
+@media screen and (max-width:1076px) {
+  .main {
+    @include shift(1);
+    // width:70vw;
+    display: block;
+    margin: 6% auto;
+    @include outer-container(100%);
+  }
+
+
+.card {
+
+
+
+}
+}
+
+@media screen and (max-width:787px) {
+  .main {
+    @include outer-container(80%);
+
+  }
+
+
+.card {
+
+
+
+}
+}
