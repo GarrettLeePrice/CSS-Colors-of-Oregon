@@ -120,16 +120,121 @@ p {
   display: block;
   margin: 0 auto; }
 
-.transBack {
+.transBack1 {
   width: 100%;
   height: 100%;
   display: block;
   position: relative;
   border-radius: 10px; }
 
-.transBack::after {
+.transBack1::after {
   content: "";
-  background: url("../img/treesBack.jpg");
+  background: url("../img/CLMBIARiverG.jpg");
+  opacity: .3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px; }
+
+.transBack2 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  border-radius: 10px; }
+
+.transBack2::after {
+  content: "";
+  background: url("../img/MalheurNF.jpg");
+  opacity: .3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px; }
+
+.transBack3 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  border-radius: 10px; }
+
+.transBack3::after {
+  content: "";
+  background: url("../img/QuinaltRF.jpg");
+  opacity: .3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px; }
+
+.transBack4 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  border-radius: 10px; }
+
+.transBack4::after {
+  content: "";
+  background: url("../img/OlympicNF.jpg");
+  opacity: .3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px; }
+
+.transBack5 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  border-radius: 10px; }
+
+.transBack5::after {
+  content: "";
+  background: url("../img/WillametteNF.jpg");
+  opacity: .3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px; }
+
+.transBack6 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  border-radius: 10px; }
+
+.transBack6::after {
+  content: "";
+  background: url("../img/MtHoodNF.jpg");
   opacity: .3;
   top: 0;
   left: 0;
@@ -142,17 +247,8 @@ p {
   border-radius: 10px; }
 
 @media screen and (max-width: 1076px) {
-  .main {
-    margin-left: 8.5298%;
-    display: block;
-    margin: 6% auto;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto; }
-    .main::after {
-      clear: both;
-      content: "";
-      display: block; } }
+  .card {
+    margin-left: 8.5298%; } }
 @media screen and (max-width: 787px) {
   .main {
     max-width: 80%;
@@ -161,6 +257,9 @@ p {
     .main::after {
       clear: both;
       content: "";
-      display: block; } }
+      display: block; }
+
+  .card {
+    margin-left: 0%; } }
 
 /*# sourceMappingURL=application.css.map */
