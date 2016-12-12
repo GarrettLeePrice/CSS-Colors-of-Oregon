@@ -1,4 +1,4 @@
-# _Oregon Colors_
+# _Oregon Swatch_
 
 
 #### By _Garrett Price_

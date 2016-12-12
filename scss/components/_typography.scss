@@ -1,0 +1,40 @@
+p {
+  margin: 0;
+}
+
+.card-header {
+  padding: 0 5%;
+  text-align: center;
+  height: 15%;
+
+}
+
+.card-header1 {
+  @extend .card-header;
+  color: darken($swatch1b, 10%);
+}
+
+.card-header2 {
+  @extend .card-header;
+  color: darken($swatch2b, 10%);
+}
+
+.card-header3 {
+  @extend .card-header;
+  color: darken($swatch3b, 10%);
+}
+
+.card-header4 {
+  @extend .card-header;
+  color: darken($swatch4c, 10%);
+}
+
+.card-header5 {
+  @extend .card-header;
+  color: darken($swatch5c, 20%);
+}
+
+.card-header6 {
+  @extend .card-header;
+  color: darken($swatch6b, 20%);
+}

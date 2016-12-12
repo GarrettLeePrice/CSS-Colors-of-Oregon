@@ -11,12 +11,7 @@ html {
   box-sizing: border-box; }
 
 body {
-  background-image: url("../img/treesBack3.jpg");
-  background-size: cover;
-  height: 1500px; }
-
-p {
-  margin: 0; }
+  background-color: silver; }
 
 #swatch1a {
   background-color: #f8b614;
@@ -121,6 +116,9 @@ p {
   max-width: 970px;
   display: block;
   margin: 6% auto; }
+  @media screen and (max-width: 852px) {
+    .main {
+      margin-left: 0%; } }
 
 .card {
   margin-bottom: 5%;
@@ -136,14 +134,6 @@ p {
   @media screen and (max-width: 1076px) {
     .card {
       margin-left: 8.5298%; } }
-  @media screen and (max-width: 787px) {
-    .card {
-      margin-left: 0%; } }
-
-.card-header {
-  padding: 0 5%;
-  text-align: center;
-  height: 15%; }
 
 .card-copy {
   padding: 0 5%;
@@ -251,5 +241,31 @@ p {
   background-size: cover;
   background-position: center;
   border-radius: 10px; }
+
+p {
+  margin: 0; }
+
+.card-header, .card-header1, .card-header2, .card-header3, .card-header4, .card-header5, .card-header6 {
+  padding: 0 5%;
+  text-align: center;
+  height: 15%; }
+
+.card-header1 {
+  color: #2a4163; }
+
+.card-header2 {
+  color: #132945; }
+
+.card-header3 {
+  color: #313c40; }
+
+.card-header4 {
+  color: #252a2c; }
+
+.card-header5 {
+  color: #413d3b; }
+
+.card-header6 {
+  color: #05080b; }
 
 /*# sourceMappingURL=application.css.map */
