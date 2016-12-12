@@ -133,6 +133,12 @@ p {
   border-radius: 10px; }
   .card:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 1076px) {
+    .card {
+      margin-left: 8.5298%; } }
+  @media screen and (max-width: 787px) {
+    .card {
+      margin-left: 0%; } }
 
 .card-header {
   padding: 0 5%;
@@ -245,21 +251,5 @@ p {
   background-size: cover;
   background-position: center;
   border-radius: 10px; }
-
-@media screen and (max-width: 1076px) {
-  .card {
-    margin-left: 8.5298%; } }
-@media screen and (max-width: 787px) {
-  .main {
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto; }
-    .main::after {
-      clear: both;
-      content: "";
-      display: block; }
-
-  .card {
-    margin-left: 0%; } }
 
 /*# sourceMappingURL=application.css.map */

@@ -22,10 +22,6 @@ $swatch6c: #172736;
 $swatch-text-dark: black;
 $swatch-text-light: silver;
 
-// Functional Color Names
-
-
-
 //transparent background images
 $image1: url("../img/CLMBIARiverG.jpg");
 $image2: url("../img/MalheurNF.jpg");
@@ -33,3 +29,8 @@ $image3: url("../img/QuinaltRF.jpg");
 $image4: url("../img/OlympicNF.jpg");
 $image5: url("../img/WillametteNF.jpg");
 $image6: url("../img/MtHoodNF.jpg");
+
+//media query breakpoints
+
+$medium-break: '(max-width:1076px)';
+$small-break: '(max-width:787px)';

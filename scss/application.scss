@@ -3,36 +3,3 @@
 @import "base/index";
 @import "layout/index";
 @import "components/index";
-
-
-
-
-@media screen and (max-width:1076px) {
-  .main {
-
-  }
-
-
-.card {
-  @include shift(1);
-
-
-}
-}
-
-
-@media screen and (max-width:787px) {
-  .main {
-    @include outer-container(80%);
-
-  }
-
-
-.card {
-
-  @include shift(0);
-
-
-
-}
-}
